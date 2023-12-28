@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 96%;
+}
+
+/* header area start  */
+
+.header-area{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    height:133px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+.button{
+    padding: 10px;
+    border: 1p solid #000000;
+    border-radius: 3px;
+}
+.button a{
+    text-decoration: none;
+}
+
+/* header area end  */
+
+
+/* banner area start  */
+
+.banner-area{
+    position: relative;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    height: 616px;
+    width: 100%;
+}
+
+.banner-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text button{
+    background-color: white;
+
+}
+
+/* banner area end  */
+
+/* samanta area start  */
+
+
+.samanta-area{
+    background-color: #ffff;
+
+}
+.samanta{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.samanta_text{
+    padding: 0px 100px 0px 40px;
+
+}
+
+h2{
+    padding-top: 30px;
+
+}
+
+.samanta_text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* samanta area end  */
+
+/* form area start  */
+
+.want-area{
+    background-color: #DFE8E6;
+    width: 1440px;
+    height: 927px;
+
+}
+.want{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* form area end  */
+
+.Services-area{
+    background-color: white;
+    width: 1440px;
+    height: 900px;
+
+}
+
+.Services{
+    text-align: center;
+
+}
+
+.image{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.find{
+    text-align: center;
+
+}
+.Philosophy-area{
+    display: flex;
+    width: 1440px;
+    height: 734px;
+    background-color: #DFE8E6;
+}
+
+.philosophy{
+    margin-top: 70px;
+}
+
+.philosophy h1{
+    text-align: center;
+
+}
+
+.philosophy p{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.man{
+    display: flex;
+
+}
+
+.man-text{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+/* therapy area start  */
+.therapy-area{
+    background-color: #DFDFDF;
+    width:1440px;
+    height: 386ox;
+}
+
+.therapy{
+    text-align: center;
+    padding: 10%;
+}
+
+/* therapy area end  */
+
+/* botom arae start  */
+
+.botom-area{
+    background-color: #DFE8E6;
+}
+
+.botom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 133px;
+}
+
+.botom ul li{
+    display: inline-block;
+}
+
+.botom ul li a{
+    text-decoration: none;
+}
